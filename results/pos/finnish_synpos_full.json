@@ -1,0 +1,145 @@
+{
+  "language": "finnish",
+  "language_name": "Finnish",
+  "typology": "agglutinative",
+  "family": "Uralic",
+  "model_type": "synpos",
+  "adapter_mode": false,
+  "mode_tag": "full",
+  "best_f1": 0.9423,
+  "macro_f1_clean": 0.9423,
+  "accuracy": 0.9827,
+  "per_tag_f1": {
+    "ADJ": 0.9673,
+    "ADP": 0.9655,
+    "ADV": 0.9664,
+    "AUX": 0.9855,
+    "CCONJ": 0.9946,
+    "INTJ": 0.8333,
+    "NOUN": 0.9855,
+    "NUM": 0.9906,
+    "PRON": 0.9882,
+    "PROPN": 0.963,
+    "PUNCT": 0.9994,
+    "SCONJ": 0.9923,
+    "SYM": 0.8358,
+    "VERB": 0.9848,
+    "X": 0.6818
+  },
+  "train_size": 12217,
+  "dev_size": 1364,
+  "num_tags": 16,
+  "total_params": 282780209,
+  "trainable_params": 282780209,
+  "training_time_s": 5730.7,
+  "training_log": [
+    {
+      "epoch": 1,
+      "loss": 1225.7301,
+      "acc": 0.962,
+      "f1": 0.7863
+    },
+    {
+      "epoch": 2,
+      "loss": 96.4781,
+      "acc": 0.975,
+      "f1": 0.8321
+    },
+    {
+      "epoch": 3,
+      "loss": 64.67,
+      "acc": 0.9779,
+      "f1": 0.8665
+    },
+    {
+      "epoch": 4,
+      "loss": 47.7228,
+      "acc": 0.9807,
+      "f1": 0.8791
+    },
+    {
+      "epoch": 5,
+      "loss": 35.7745,
+      "acc": 0.9797,
+      "f1": 0.8629
+    },
+    {
+      "epoch": 6,
+      "loss": 26.5122,
+      "acc": 0.9814,
+      "f1": 0.8764
+    },
+    {
+      "epoch": 7,
+      "loss": 19.2673,
+      "acc": 0.982,
+      "f1": 0.9378
+    },
+    {
+      "epoch": 8,
+      "loss": 15.1413,
+      "acc": 0.9811,
+      "f1": 0.9155
+    },
+    {
+      "epoch": 9,
+      "loss": 11.9087,
+      "acc": 0.9827,
+      "f1": 0.8786
+    },
+    {
+      "epoch": 10,
+      "loss": 9.9086,
+      "acc": 0.9827,
+      "f1": 0.885
+    },
+    {
+      "epoch": 11,
+      "loss": 8.05,
+      "acc": 0.9827,
+      "f1": 0.9423
+    },
+    {
+      "epoch": 12,
+      "loss": 7.3228,
+      "acc": 0.9819,
+      "f1": 0.9246
+    },
+    {
+      "epoch": 13,
+      "loss": 6.4117,
+      "acc": 0.9828,
+      "f1": 0.8895
+    },
+    {
+      "epoch": 14,
+      "loss": 5.1675,
+      "acc": 0.9831,
+      "f1": 0.8832
+    },
+    {
+      "epoch": 15,
+      "loss": 4.6248,
+      "acc": 0.9833,
+      "f1": 0.8813
+    },
+    {
+      "epoch": 16,
+      "loss": 4.3651,
+      "acc": 0.9816,
+      "f1": 0.9236
+    },
+    {
+      "epoch": 17,
+      "loss": 3.9185,
+      "acc": 0.9837,
+      "f1": 0.9419
+    },
+    {
+      "epoch": 18,
+      "loss": 3.1337,
+      "acc": 0.9837,
+      "f1": 0.9419
+    }
+  ]
+}

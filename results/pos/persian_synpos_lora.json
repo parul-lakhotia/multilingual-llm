@@ -1,0 +1,121 @@
+{
+  "language": "persian",
+  "language_name": "Persian",
+  "typology": "fusional",
+  "family": "Iranian",
+  "model_type": "synpos",
+  "adapter_mode": true,
+  "mode_tag": "lora",
+  "best_f1": 0.962,
+  "macro_f1_clean": 0.962,
+  "accuracy": 0.9754,
+  "per_tag_f1": {
+    "ADJ": 0.9315,
+    "ADP": 0.9931,
+    "ADV": 0.9373,
+    "AUX": 0.9978,
+    "CCONJ": 0.9973,
+    "DET": 0.9831,
+    "INTJ": 0.9398,
+    "NOUN": 0.9697,
+    "NUM": 0.9745,
+    "PART": 0.8485,
+    "PRON": 0.9914,
+    "PROPN": 0.8802,
+    "PUNCT": 0.9998,
+    "SCONJ": 0.9879,
+    "VERB": 0.9981
+  },
+  "train_size": 26196,
+  "dev_size": 1456,
+  "num_tags": 17,
+  "total_params": 283370837,
+  "trainable_params": 5327189,
+  "training_time_s": 6892.7,
+  "training_log": [
+    {
+      "epoch": 1,
+      "loss": 847.3364,
+      "acc": 0.9692,
+      "f1": 0.9522
+    },
+    {
+      "epoch": 2,
+      "loss": 101.6679,
+      "acc": 0.9708,
+      "f1": 0.9582
+    },
+    {
+      "epoch": 3,
+      "loss": 85.6042,
+      "acc": 0.9737,
+      "f1": 0.9584
+    },
+    {
+      "epoch": 4,
+      "loss": 74.8963,
+      "acc": 0.9748,
+      "f1": 0.9564
+    },
+    {
+      "epoch": 5,
+      "loss": 65.2536,
+      "acc": 0.976,
+      "f1": 0.9591
+    },
+    {
+      "epoch": 6,
+      "loss": 53.3713,
+      "acc": 0.9761,
+      "f1": 0.959
+    },
+    {
+      "epoch": 7,
+      "loss": 41.4662,
+      "acc": 0.9754,
+      "f1": 0.962
+    },
+    {
+      "epoch": 8,
+      "loss": 31.8764,
+      "acc": 0.9753,
+      "f1": 0.9597
+    },
+    {
+      "epoch": 9,
+      "loss": 25.5453,
+      "acc": 0.9752,
+      "f1": 0.9586
+    },
+    {
+      "epoch": 10,
+      "loss": 20.5992,
+      "acc": 0.9755,
+      "f1": 0.9608
+    },
+    {
+      "epoch": 11,
+      "loss": 17.5097,
+      "acc": 0.9749,
+      "f1": 0.957
+    },
+    {
+      "epoch": 12,
+      "loss": 14.5893,
+      "acc": 0.9757,
+      "f1": 0.9595
+    },
+    {
+      "epoch": 13,
+      "loss": 12.4603,
+      "acc": 0.9753,
+      "f1": 0.9579
+    },
+    {
+      "epoch": 14,
+      "loss": 10.8823,
+      "acc": 0.9765,
+      "f1": 0.96
+    }
+  ]
+}

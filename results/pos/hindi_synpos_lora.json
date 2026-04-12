@@ -1,0 +1,103 @@
+{
+  "language": "hindi",
+  "language_name": "Hindi",
+  "typology": "fusional",
+  "family": "Indo-Aryan",
+  "model_type": "synpos",
+  "adapter_mode": true,
+  "mode_tag": "lora",
+  "best_f1": 0.9425,
+  "macro_f1_clean": 0.9426,
+  "accuracy": 0.9756,
+  "per_tag_f1": {
+    "ADJ": 0.9469,
+    "ADP": 0.9973,
+    "ADV": 0.8991,
+    "AUX": 0.9868,
+    "CCONJ": 0.9963,
+    "DET": 0.9744,
+    "NOUN": 0.9631,
+    "NUM": 0.9796,
+    "PART": 0.986,
+    "PRON": 0.9922,
+    "PROPN": 0.9388,
+    "PUNCT": 1.0,
+    "SCONJ": 0.9913,
+    "VERB": 0.9865,
+    "X": 0.5
+  },
+  "train_size": 13306,
+  "dev_size": 1659,
+  "num_tags": 17,
+  "total_params": 283370837,
+  "trainable_params": 5327189,
+  "training_time_s": 2951.5,
+  "training_log": [
+    {
+      "epoch": 1,
+      "loss": 1354.1233,
+      "acc": 0.9676,
+      "f1": 0.8972
+    },
+    {
+      "epoch": 2,
+      "loss": 132.2635,
+      "acc": 0.9739,
+      "f1": 0.9212
+    },
+    {
+      "epoch": 3,
+      "loss": 103.9688,
+      "acc": 0.9763,
+      "f1": 0.9286
+    },
+    {
+      "epoch": 4,
+      "loss": 89.0062,
+      "acc": 0.9756,
+      "f1": 0.9425
+    },
+    {
+      "epoch": 5,
+      "loss": 76.8413,
+      "acc": 0.978,
+      "f1": 0.9332
+    },
+    {
+      "epoch": 6,
+      "loss": 61.1083,
+      "acc": 0.9779,
+      "f1": 0.9208
+    },
+    {
+      "epoch": 7,
+      "loss": 48.4255,
+      "acc": 0.9793,
+      "f1": 0.9227
+    },
+    {
+      "epoch": 8,
+      "loss": 37.9365,
+      "acc": 0.9784,
+      "f1": 0.9401
+    },
+    {
+      "epoch": 9,
+      "loss": 30.4106,
+      "acc": 0.9771,
+      "f1": 0.9281
+    },
+    {
+      "epoch": 10,
+      "loss": 26.0361,
+      "acc": 0.978,
+      "f1": 0.9292
+    },
+    {
+      "epoch": 11,
+      "loss": 21.1045,
+      "acc": 0.978,
+      "f1": 0.9338
+    }
+  ]
+}

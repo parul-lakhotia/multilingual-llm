@@ -1,0 +1,115 @@
+{
+  "language": "urdu",
+  "language_name": "Urdu",
+  "typology": "fusional",
+  "family": "Indo-Aryan",
+  "model_type": "mrlpos",
+  "adapter_mode": false,
+  "mode_tag": "full",
+  "best_f1": 0.8838,
+  "macro_f1_clean": 0.8838,
+  "accuracy": 0.9516,
+  "per_tag_f1": {
+    "ADJ": 0.9132,
+    "ADP": 0.9897,
+    "ADV": 0.8031,
+    "AUX": 0.971,
+    "CCONJ": 0.99,
+    "DET": 0.8971,
+    "NOUN": 0.9335,
+    "NUM": 0.9724,
+    "PART": 0.9626,
+    "PRON": 0.9647,
+    "PROPN": 0.8972,
+    "PUNCT": 1.0,
+    "SCONJ": 0.9883,
+    "VERB": 0.974,
+    "X": 0.0
+  },
+  "train_size": 4043,
+  "dev_size": 552,
+  "num_tags": 17,
+  "total_params": 284205013,
+  "trainable_params": 284205013,
+  "training_time_s": 1490.3,
+  "training_log": [
+    {
+      "epoch": 1,
+      "loss": 4722.0143,
+      "acc": 0.7436,
+      "f1": 0.4694
+    },
+    {
+      "epoch": 2,
+      "loss": 711.3886,
+      "acc": 0.9359,
+      "f1": 0.7974
+    },
+    {
+      "epoch": 3,
+      "loss": 363.7708,
+      "acc": 0.9406,
+      "f1": 0.8734
+    },
+    {
+      "epoch": 4,
+      "loss": 302.2254,
+      "acc": 0.9447,
+      "f1": 0.8727
+    },
+    {
+      "epoch": 5,
+      "loss": 263.8595,
+      "acc": 0.9506,
+      "f1": 0.877
+    },
+    {
+      "epoch": 6,
+      "loss": 230.7505,
+      "acc": 0.9516,
+      "f1": 0.8838
+    },
+    {
+      "epoch": 7,
+      "loss": 201.2082,
+      "acc": 0.9453,
+      "f1": 0.8784
+    },
+    {
+      "epoch": 8,
+      "loss": 179.429,
+      "acc": 0.9492,
+      "f1": 0.882
+    },
+    {
+      "epoch": 9,
+      "loss": 154.849,
+      "acc": 0.9453,
+      "f1": 0.8765
+    },
+    {
+      "epoch": 10,
+      "loss": 135.9398,
+      "acc": 0.9482,
+      "f1": 0.88
+    },
+    {
+      "epoch": 11,
+      "loss": 116.1955,
+      "acc": 0.9476,
+      "f1": 0.8795
+    },
+    {
+      "epoch": 12,
+      "loss": 100.586,
+      "acc": 0.9458,
+      "f1": 0.8768
+    },
+    {
+      "epoch": 13,
+      "loss": 88.3064,
+      "acc": 0.9447,
+      "f1": 0.8769
+    }
+  ]
+}

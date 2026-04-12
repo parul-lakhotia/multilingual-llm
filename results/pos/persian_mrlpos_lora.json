@@ -1,0 +1,115 @@
+{
+  "language": "persian",
+  "language_name": "Persian",
+  "typology": "fusional",
+  "family": "Iranian",
+  "model_type": "mrlpos",
+  "adapter_mode": true,
+  "mode_tag": "lora",
+  "best_f1": 0.9631,
+  "macro_f1_clean": 0.9631,
+  "accuracy": 0.9769,
+  "per_tag_f1": {
+    "ADJ": 0.9353,
+    "ADP": 0.9946,
+    "ADV": 0.9501,
+    "AUX": 0.9978,
+    "CCONJ": 0.9986,
+    "DET": 0.9868,
+    "INTJ": 0.9286,
+    "NOUN": 0.971,
+    "NUM": 0.9695,
+    "PART": 0.8485,
+    "PRON": 0.9922,
+    "PROPN": 0.8854,
+    "PUNCT": 1.0,
+    "SCONJ": 0.9915,
+    "VERB": 0.997
+  },
+  "train_size": 26196,
+  "dev_size": 1456,
+  "num_tags": 17,
+  "total_params": 287199957,
+  "trainable_params": 9156309,
+  "training_time_s": 6956.2,
+  "training_log": [
+    {
+      "epoch": 1,
+      "loss": 1316.2247,
+      "acc": 0.9655,
+      "f1": 0.9438
+    },
+    {
+      "epoch": 2,
+      "loss": 112.0971,
+      "acc": 0.9726,
+      "f1": 0.9558
+    },
+    {
+      "epoch": 3,
+      "loss": 90.6891,
+      "acc": 0.9736,
+      "f1": 0.961
+    },
+    {
+      "epoch": 4,
+      "loss": 76.6989,
+      "acc": 0.976,
+      "f1": 0.959
+    },
+    {
+      "epoch": 5,
+      "loss": 67.0762,
+      "acc": 0.9762,
+      "f1": 0.955
+    },
+    {
+      "epoch": 6,
+      "loss": 56.3266,
+      "acc": 0.9769,
+      "f1": 0.9631
+    },
+    {
+      "epoch": 7,
+      "loss": 47.9815,
+      "acc": 0.9772,
+      "f1": 0.9605
+    },
+    {
+      "epoch": 8,
+      "loss": 40.5191,
+      "acc": 0.9747,
+      "f1": 0.9592
+    },
+    {
+      "epoch": 9,
+      "loss": 34.2818,
+      "acc": 0.9756,
+      "f1": 0.9602
+    },
+    {
+      "epoch": 10,
+      "loss": 29.5936,
+      "acc": 0.9759,
+      "f1": 0.9609
+    },
+    {
+      "epoch": 11,
+      "loss": 24.9291,
+      "acc": 0.9756,
+      "f1": 0.9598
+    },
+    {
+      "epoch": 12,
+      "loss": 21.7872,
+      "acc": 0.976,
+      "f1": 0.9619
+    },
+    {
+      "epoch": 13,
+      "loss": 18.7259,
+      "acc": 0.975,
+      "f1": 0.958
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "language": "persian",
+  "language_name": "Persian",
+  "typology": "fusional",
+  "family": "Iranian",
+  "model_type": "synpos",
+  "adapter_mode": false,
+  "mode_tag": "full",
+  "best_f1": 0.962,
+  "macro_f1_clean": 0.962,
+  "accuracy": 0.9755,
+  "per_tag_f1": {
+    "ADJ": 0.932,
+    "ADP": 0.9935,
+    "ADV": 0.9359,
+    "AUX": 0.9967,
+    "CCONJ": 0.9986,
+    "DET": 0.9812,
+    "INTJ": 0.9398,
+    "NOUN": 0.97,
+    "NUM": 0.9722,
+    "PART": 0.8485,
+    "PRON": 0.9893,
+    "PROPN": 0.885,
+    "PUNCT": 1.0,
+    "SCONJ": 0.9907,
+    "VERB": 0.9963
+  },
+  "train_size": 26196,
+  "dev_size": 1456,
+  "num_tags": 17,
+  "total_params": 282781013,
+  "trainable_params": 282781013,
+  "training_time_s": 6702.1,
+  "training_log": [
+    {
+      "epoch": 1,
+      "loss": 858.0881,
+      "acc": 0.9653,
+      "f1": 0.9484
+    },
+    {
+      "epoch": 2,
+      "loss": 100.0808,
+      "acc": 0.9735,
+      "f1": 0.9592
+    },
+    {
+      "epoch": 3,
+      "loss": 80.2105,
+      "acc": 0.9755,
+      "f1": 0.962
+    },
+    {
+      "epoch": 4,
+      "loss": 68.5814,
+      "acc": 0.9761,
+      "f1": 0.9586
+    },
+    {
+      "epoch": 5,
+      "loss": 57.687,
+      "acc": 0.9762,
+      "f1": 0.9607
+    },
+    {
+      "epoch": 6,
+      "loss": 44.951,
+      "acc": 0.9761,
+      "f1": 0.9602
+    },
+    {
+      "epoch": 7,
+      "loss": 34.5382,
+      "acc": 0.9769,
+      "f1": 0.9612
+    },
+    {
+      "epoch": 8,
+      "loss": 26.7382,
+      "acc": 0.9765,
+      "f1": 0.9594
+    },
+    {
+      "epoch": 9,
+      "loss": 20.4076,
+      "acc": 0.9762,
+      "f1": 0.9577
+    },
+    {
+      "epoch": 10,
+      "loss": 16.6489,
+      "acc": 0.9758,
+      "f1": 0.9599
+    }
+  ]
+}
